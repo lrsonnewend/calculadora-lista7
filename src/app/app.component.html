@@ -17,7 +17,7 @@
 
           <div class="row">
             <div *ngFor="let l of teclas" class="col-3">
-            <button type="button" (click)="addDigito(l)" [value]="l" class="btn btn-primary bttn">{{l}}</button>     
+            <button type="button" (click)="addDigito(l)" [value]="l" class="btn btn-primary bttn" [class.btn-danger]="!isNumber(l)">{{l}}</button>     
             </div>
           </div>
           <div class="row">
@@ -27,11 +27,11 @@
               <button type="button" class="operator btn btn-info bttne" (click)="ce()">CE</button>     
             </div>  
           </div>
-          <div class="row">
+          </form>
+      </div>
+          <div class="container log w-50 overflow-auto">
             <app-log></app-log>
           </div>
-        </form>
-      </div>
     </div>
   </div>
 </body>
