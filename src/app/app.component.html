@@ -1,26 +1,31 @@
-<div class="container">
-  <div class="row">
-    <div class=" col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6">
-      <form name="form" class="well calcontainer col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6">
+<body>
+  <div class="container">
+    <div class="row saleh">
+      <div class=" col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6">
+        <form name="form" class="well calcontainer col-xs-12  col-sm-offset-4 col-sm-12  col-md-offset-3 col-md-6  col-lg-offset-3 col-lg-6">
 
-        <input type="text" class="form-control" name="display" id="display" [(ngModel)]="display" disabled readonly>
-  
+          <input type="text" class="form-control" name="display" id="display" [(ngModel)]="display" disabled readonly><br>
+    
 
-        <div class="row">
-          <div *ngFor="let l of teclas" class="col-3">
-          <button type="button" (click)="addDigito(l)" [value]="l" class="btn btn-primary bttn">{{l}}</button>     
+          <div class="row">
+            <div *ngFor="let l of teclas" class="col-3">
+            <button type="button" (click)="addDigito(l)" [value]="l" class="btn btn-primary bttn">{{l}}</button>     
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col -3">
-            <button type="button" (click)="calcular()" class="btn btn-success bttne">=</button>      
-        
-            <button type="button" class="operator btn btn-info bttne" (click)="ce()">CE</button>     
-          </div>  
-        </div>
-        <div class="row">
-          <app-log></app-log>
-        </div>
-      </form>
-</div>
+          <div class="row">
+            <div class="col -3">
+              <button type="button" (click)="calcular()" class="btn btn-success bttne">=</button>      
+          
+              <button type="button" class="operator btn btn-info bttne" (click)="ce()">CE</button>     
+            </div>  
+          </div>
+          <div class="row">
+            <app-log></app-log>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
 
