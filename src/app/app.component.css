@@ -1,0 +1,29 @@
+p {
+  font-family: Lato;
+}
+
+.bttne {
+    /* last er 2 ta button  ke style korar jonne ai class */
+    width: 100px;
+    height: 45px;
+    margin-top: 10px;
+    margin-right: 11px;
+}
+
+.bttn {
+    /* button gulo ke style korar jonne ai class */
+    margin-bottom: 8px;
+    margin-left: 5px;
+    width: 55px;
+    height: 45px;
+    font-size: 22px;
+}
+
+#display {
+    /* calculator er display er jonne ai id kora hoie */
+    text-align: right;
+    width: 420px;
+    height: 75px;
+    font-size: 26px;
+    background-color: white;
+}
