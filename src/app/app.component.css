@@ -13,8 +13,7 @@ p {
 
 .bttn {
     /* button gulo ke style korar jonne ai class */
-    margin-bottom: 8px;
-    margin-left: 5px;
+    margin-bottom: 7px;
     width: 55px;
     height: 45px;
     font-size: 22px;
@@ -23,7 +22,7 @@ p {
 #display {
     /* calculator er display er jonne ai id kora hoie */
     text-align: right;
-    width: 305px;
+    width: 282px;
     height: 75px;
     font-size: 26px;
     background-color: white;
