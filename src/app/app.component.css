@@ -25,6 +25,8 @@ p {
     height: 75px;
     font-size: 26px;
     background-color: white;
+    border-radius: 7px;
+
 }
 
 .calcontainer {
@@ -33,6 +35,8 @@ p {
     margin-left: 0px;
     margin-top: 20px;
     width: 320px;
+
+    border-radius: 15px;
 }
 
 .saleh {
